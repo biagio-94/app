@@ -2,6 +2,8 @@ import React from "react"
 function Navbar() {
     return (
         <nav className="py-3 px-3">
+            <div className="container">
+
             <div className="row align-items-center justify-content-between">
                 <div className="col-3">
                     <a href="/"> <div className="logo"><img src={process.env.PUBLIC_URL + '/logo192.png'} alt="" /></div></a>
@@ -21,6 +23,7 @@ function Navbar() {
                         </ul>
                     </div>
                 </div>
+            </div>
             </div>
         </nav>
 

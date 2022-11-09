@@ -23,6 +23,10 @@ a i{
 .myAnimation{
     height: calc(100% - 82px);
 }
+.myAnimation img{
+    aspect-ratio: 1;
+    height: 500px;
+}
 .welcome{
     background-image: url("../public/Portfolio.jpg");
     position: absolute;
